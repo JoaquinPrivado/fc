@@ -1,0 +1,40 @@
+#P{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #PContent{
+        width: 30em;
+        display: flex;
+        align-items: center;
+        #I8Text{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding-right: 1em;
+        }
+        #I8Image{
+            width: 40em;
+        }
+    }
+}
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 556px){
+    #P{
+    #PContent{
+        flex-direction: column;
+        width: 20em;
+        padding: 0.5em;
+        align-items: center;
+        #I8Image{
+            width: 8em;
+        }
+    }
+
+    }
+}

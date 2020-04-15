@@ -1,0 +1,19 @@
+#I1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    #textI1{
+        width: 20em;
+        h1{
+            text-align: center;
+        }
+    }
+
+    #I1Image{
+        width: 10em;
+        height: 10em;
+    }
+}

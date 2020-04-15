@@ -1,0 +1,25 @@
+#TQ{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+        .final{
+            font-size: 1.6em;
+            color: #d72323;
+        }
+
+        #I9Image{
+            width: 10em;
+        }
+}
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 556px){
+        #I9Image{
+            width: 8em;
+        }
+}
